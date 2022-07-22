@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Style CSS-->
+    <link rel="stylesheet" href="./style/main.css">
+
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--Owl CSS-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="serie_principal">
+            <!--Wrapper CSS-->
+            <div class="container">
+                <h3 class="titulo">VIKINGS</h3>
+                <p class="descricao">Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo encontram-se além do mar Báltico. Mas para conseguir conquistá-las ele precisa convencer Earl Haraldson, o líder de seu povo, a permitir que ele e seus guerreiros viagem em direção à Inglaterra.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="link_assistir()">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR TRAILER
+                    </button>
+                    <button role="button" class="botao" onclick="link_informacao()">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Carrousel-->
+    <div class="carrousel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box_filme" src="img/Capa_Journal.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box_filme" src="img/Capa_Journey.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box_filme" src="img/Capa_Real.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box_filme" src="img/Capa_Rise.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box_filme" src="img/Capa_Valhalla.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box_filme" src="img/Capa_Viking.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box_filme" src="img/Capa_Vikings.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <!--Main JS-->
+    <script src="js/main.js"></script>
+
+    <!--Botões-->
+    <script src="https://kit.fontawesome.com/63dd4f4d83.js" crossorigin="anonymous"></script>
+    <!--Owl JS-->
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+https://www.themoviedb.org/
+https://fontawesome.com/icons
+https://owlcarousel2.github.io/OwlCarousel2/
